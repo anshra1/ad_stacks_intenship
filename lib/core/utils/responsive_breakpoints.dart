@@ -12,7 +12,7 @@ class ResponsiveBreakpoints {
     double scaleFactor;
 
     // Industry standard breakpoints and scaling
-    if (width <= 600) {
+    if (width <= 768) {
       scaleFactor = 1.0; // Base size for mobile
     } else if (width <= 1024) {
       scaleFactor = 1.125; // 12.5% larger for tablet

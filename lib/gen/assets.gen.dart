@@ -14,11 +14,29 @@ import 'package:flutter/widgets.dart';
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/1.png
+  AssetGenImage get a1 => const AssetGenImage('assets/images/1.png');
+
+  /// File path: assets/images/2.jpeg
+  AssetGenImage get a2 => const AssetGenImage('assets/images/2.jpeg');
+
+  /// File path: assets/images/3.jpeg
+  AssetGenImage get a3 => const AssetGenImage('assets/images/3.jpeg');
+
+  /// File path: assets/images/4.jpeg
+  AssetGenImage get a4 => const AssetGenImage('assets/images/4.jpeg');
+
+  /// File path: assets/images/5.jpg
+  AssetGenImage get a5 => const AssetGenImage('assets/images/5.jpg');
+
   /// File path: assets/images/as_stack.png
   AssetGenImage get asStack => const AssetGenImage('assets/images/as_stack.png');
 
+  /// File path: assets/images/gradient.png
+  AssetGenImage get gradient => const AssetGenImage('assets/images/gradient.png');
+
   /// List of all assets
-  List<AssetGenImage> get values => [asStack];
+  List<AssetGenImage> get values => [a1, a2, a3, a4, a5, asStack, gradient];
 }
 
 class Assets {

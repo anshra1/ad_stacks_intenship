@@ -3,7 +3,7 @@ import 'package:flutter/widgets.dart';
 /// TODO: Confirm breakpoints with product
 class Breakpoints {
   const Breakpoints._();
-  static const double mobileMax = 600;
+  static const double mobileMax = 768;
   static const double tabletMax = 1024;
   static const double desktopMax = 1440;
 }
@@ -19,10 +19,10 @@ FormFactor formFactorForWidth(double width) {
 
 class ResponsiveLayout extends StatelessWidget {
   const ResponsiveLayout({
-    super.key,
     required this.mobile,
     required this.tablet,
     required this.desktop,
+    super.key,
     Widget? largeDesktop,
   }) : largeDesktop = largeDesktop ?? desktop;
 
@@ -35,6 +35,8 @@ class ResponsiveLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     return LayoutBuilder(
       builder: (context, constraints) {
+        print(constraints.maxWidth);
+        
         final width = constraints.maxWidth;
         final ff = formFactorForWidth(width);
         switch (ff) {

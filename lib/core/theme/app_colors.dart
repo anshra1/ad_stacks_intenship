@@ -47,10 +47,10 @@ const colorScheme = ColorScheme(
 );
 
 class AppColors {
-  static const Color backgroundColor = Colors.blueGrey; // same
+  static  Color backgroundColor = Colors.blueGrey.shade100; // same
 }
 
-const Color kSelectedBackgroundColor = Color.fromARGB(255, 234, 233, 236); // same
+ Color kSelectedBackgroundColor = AppColors.backgroundColor; // same
 const Color kHoverBackgroundColor = Color(0xFFEEEEEE);
 const Color kSelectedForegroundColor = Colors.black;
 const Color kDefaultForegroundColor = Colors.black;
