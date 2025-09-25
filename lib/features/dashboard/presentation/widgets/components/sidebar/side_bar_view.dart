@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:internship_ad_stacks/features/dashboard/presentation/views/ad_stack_logo.dart';
+import 'package:internship_ad_stacks/features/dashboard/presentation/widgets/components/header/ad_stack_logo.dart';
 import 'package:internship_ad_stacks/features/dashboard/presentation/widgets/components/sidebar/bottom_sidebar_items.dart';
 import 'package:internship_ad_stacks/features/dashboard/presentation/widgets/components/sidebar/side_bar_divider.dart';
 import 'package:internship_ad_stacks/features/dashboard/presentation/widgets/components/sidebar/sidebar_items_list.dart';
